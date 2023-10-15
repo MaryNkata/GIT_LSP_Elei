@@ -82,6 +82,11 @@ public class Driver {
         seta.diff(setb);
         System.out.println("Set A post difference: " + seta.toString());
         
+        //testing complement function pre and post difference 
+        System.out.println("Set A pre complement: " + seta.toString());
+        seta.complement(setb);
+        System.out.println("Set A post complement: " + seta.toString());
+        
         //testing clear function 
         System.out.println("Set A is Empty: " + seta.isEmpty());
         seta.clear();
